@@ -1,1 +1,21 @@
 ﻿Renvoyer des expressions à la place des strings
+
+===
+
+Distinguer les constantes numériques (valeurs de l’ensemble de départ), cas ln(2) (fonction connue)
+Des constantes mais inconnues ex : f(2)
+
+Cas :
+·         2.34, Pi
+·         Ln(2) fonction connue
+·         F(2) fonction inconnue mais valeur constante
+
+Règles de simplification des expressions. (0+x=x, x-x=0 , etc..)
+
+
+Changement de type
+Entier/Rational/Real
+
+A faire tout à la fin seulement ?
+
+ Duplication des constantes ? ( Ex deux constantes = 2)
