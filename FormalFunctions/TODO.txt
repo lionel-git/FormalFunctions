@@ -1,0 +1,1 @@
+﻿Renvoyer des expressions à la place des strings
