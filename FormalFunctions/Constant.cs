@@ -20,6 +20,7 @@ namespace FormalFunctions
 
         public override string Eval(IList<string> inputs=null)
         {
+            // Test modif
             if ((inputs != null) && (inputs.Count > 0))
                 throw new InvalidArgs(this, inputs);
             return Value;
