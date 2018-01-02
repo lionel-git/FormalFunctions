@@ -15,9 +15,9 @@ namespace FormalFunctions
             Name = name;
         }
 
-        public override string Eval(IList<string> inputs = null)
+        public override Expression Eval(IList<Expression> inputs = null)
         {
-            return Name;
+            return new Expression();
         }
     }
 }

@@ -9,9 +9,13 @@ namespace FormalFunctions
     // Just a test function
     public class FctTest : Expression
     {
-        public override string Eval(IList<string> inputs = null)
+        public override Expression Eval(IList<Expression> inputs = null)
         {
-            return "titi";
+            var f = new FctSum();
+            f.InputTypes = new List<SetType>() { SetType.Reals, SetType.Reals };
+            f.OutputType = SetType.Reals;
+            f.Name = "SumTest";
+            return f;
         }
     }
 }

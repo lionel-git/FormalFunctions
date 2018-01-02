@@ -18,12 +18,16 @@ namespace FormalFunctions
             Name =$"CST_{value}";
         }
 
-        public override string Eval(IList<string> inputs=null)
+        public override Expression Eval(IList<Expression> inputs=null)
         {
             // Test modif
-            if ((inputs != null) && (inputs.Count > 0))
-                throw new InvalidArgs(this, inputs);
-            return Value;
+            CheckInputs(inputs);
+            return this;
+        }
+
+        public override string ToStr(IList<Expression> inputs = null)
+        {
+            return $"{Value}";
         }
     }
 }
