@@ -8,7 +8,7 @@ namespace FormalFunctions
 {
     public class UnkownFunction : Expression
     {
-        public override string Eval(IList<string> inputs = null)
+        public override Expression Eval(IList<Expression> inputs = null)
         {
             return DefaultEval(inputs);
         }

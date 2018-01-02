@@ -9,9 +9,9 @@ namespace FormalFunctions
     public class FctSum : Expression
     {
         // Return all inputs summed
-        public override string Eval(IList<string> inputs = null)
+        public override Expression Eval(IList<Expression> inputs = null)
         {
-            return "toto";
+            return new Expression();
             
                    
         }
